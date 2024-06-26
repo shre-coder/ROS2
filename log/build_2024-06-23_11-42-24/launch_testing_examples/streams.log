@@ -1,0 +1,62 @@
+[2.467s] Invoking command in '/home/sldev/ros2_ws/build/launch_testing_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/launch_testing_examples/build
+[3.087s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.088s] !!
+[3.088s] 
+[3.088s]         ********************************************************************************
+[3.088s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.088s]         Instead, use pypa/build, pypa/installer or other
+[3.088s]         standards-based tools.
+[3.088s] 
+[3.088s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.088s]         ********************************************************************************
+[3.089s] 
+[3.089s] !!
+[3.089s]   easy_install.initialize_options(self)
+[3.089s] running develop
+[3.573s] Removing /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch-testing-examples.egg-link (link to .)
+[3.751s] Invoked command in '/home/sldev/ros2_ws/build/launch_testing_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/launch_testing_examples/build
+[3.753s] Invoking command in '/home/sldev/ros2_ws/src/examples/launch_testing/launch_testing_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/sldev/ros2_ws/build/launch_testing_examples/build install --record /home/sldev/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data --force
+[4.375s] running egg_info
+[4.407s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[4.407s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[4.408s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[4.408s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[4.467s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[4.472s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[4.472s] running build
+[4.472s] running build_py
+[4.472s] creating /home/sldev/ros2_ws/build/launch_testing_examples/build
+[4.473s] creating /home/sldev/ros2_ws/build/launch_testing_examples/build/lib
+[4.473s] creating /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/hello_world_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/check_node_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.474s] copying launch_testing_examples/set_param_launch_test.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.475s] copying launch_testing_examples/__init__.py -> /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[4.475s] running install
+[4.490s] running install_lib
+[4.524s] creating /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.525s] copying /home/sldev/ros2_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples
+[4.527s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-312.pyc
+[4.528s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-312.pyc
+[4.529s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-312.pyc
+[4.530s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-312.pyc
+[4.531s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-312.pyc
+[4.531s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-312.pyc
+[4.532s] byte-compiling /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples/__init__.py to __init__.cpython-312.pyc
+[4.533s] running install_data
+[4.533s] copying resource/launch_testing_examples -> /home/sldev/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[4.535s] copying package.xml -> /home/sldev/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[4.536s] running install_egg_info
+[4.570s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch_testing_examples-0.19.3-py3.12.egg-info
+[4.572s] running install_scripts
+[4.822s] writing list of installed files to '/home/sldev/ros2_ws/build/launch_testing_examples/install.log'
+[5.004s] Invoked command in '/home/sldev/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/sldev/ros2_ws/build/launch_testing_examples/build install --record /home/sldev/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data --force

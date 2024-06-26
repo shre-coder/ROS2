@@ -1,0 +1,61 @@
+[2.776s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclpy_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build
+[3.482s] running develop
+[3.496s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.496s] !!
+[3.496s] 
+[3.496s]         ********************************************************************************
+[3.496s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.496s]         Instead, use pypa/build, pypa/installer or other
+[3.497s]         standards-based tools.
+[3.497s] 
+[3.497s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.497s]         ********************************************************************************
+[3.497s] 
+[3.497s] !!
+[3.497s]   easy_install.initialize_options(self)
+[3.938s] Removing /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[4.465s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclpy_minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build
+[4.467s] Invoking command in '/home/sldev/ros2_ws/src/examples/rclpy/services/minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed install_data --force
+[5.144s] running egg_info
+[5.208s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[5.208s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[5.208s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[5.212s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[5.212s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[5.312s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[5.315s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[5.315s] running build
+[5.316s] running build_py
+[5.323s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build
+[5.323s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib
+[5.323s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.323s] copying examples_rclpy_minimal_client/client.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.323s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.323s] copying examples_rclpy_minimal_client/client_async.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.324s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.324s] copying examples_rclpy_minimal_client/__init__.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[5.324s] running install
+[5.334s] running install_lib
+[5.376s] creating /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.377s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.378s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.378s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.379s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.379s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client
+[5.381s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-312.pyc
+[5.382s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-312.pyc
+[5.384s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-312.pyc
+[5.385s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-312.pyc
+[5.387s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-312.pyc
+[5.388s] running install_data
+[5.390s] copying resource/examples_rclpy_minimal_client -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[5.392s] copying package.xml -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[5.394s] running install_egg_info
+[5.439s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples_rclpy_minimal_client-0.19.3-py3.12.egg-info
+[5.444s] running install_scripts
+[5.771s] Installing client script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.771s] Installing client_async script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.771s] Installing client_async_callback script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.771s] Installing client_async_member_function script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[5.772s] writing list of installed files to '/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[5.842s] Invoked command in '/home/sldev/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,57 @@
+[2.147s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[2.795s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.795s] !!
+[2.795s] 
+[2.795s]         ********************************************************************************
+[2.795s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.795s]         Instead, use pypa/build, pypa/installer or other
+[2.795s]         standards-based tools.
+[2.796s] 
+[2.796s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.796s]         ********************************************************************************
+[2.796s] 
+[2.796s] !!
+[2.796s]   easy_install.initialize_options(self)
+[2.799s] running develop
+[3.283s] Removing /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[3.421s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.422s] Invoking command in '/home/sldev/ros2_ws/src/examples/rclpy/topics/minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data --force
+[3.965s] running egg_info
+[3.995s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.996s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.996s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.996s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.997s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[4.060s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.063s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.063s] running build
+[4.063s] running build_py
+[4.064s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[4.064s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[4.064s] creating /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.064s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.064s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.064s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.065s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.065s] running install
+[4.077s] running install_lib
+[4.109s] creating /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher
+[4.109s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher
+[4.111s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher
+[4.112s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher
+[4.112s] copying /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher
+[4.112s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-312.pyc
+[4.112s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-312.pyc
+[4.115s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-312.pyc
+[4.115s] byte-compiling /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[4.115s] running install_data
+[4.115s] copying resource/examples_rclpy_minimal_publisher -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.117s] copying package.xml -> /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[4.120s] running install_egg_info
+[4.160s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher-0.19.3-py3.12.egg-info
+[4.162s] running install_scripts
+[4.379s] Installing publisher_local_function script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.380s] Installing publisher_member_function script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.381s] Installing publisher_old_school script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.381s] writing list of installed files to '/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[4.500s] Invoked command in '/home/sldev/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data --force

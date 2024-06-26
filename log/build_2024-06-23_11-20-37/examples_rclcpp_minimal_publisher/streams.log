@@ -1,0 +1,87 @@
+[0.129s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.885s] -- The C compiler identification is GNU 13.2.0
+[1.263s] -- The CXX compiler identification is GNU 13.2.0
+[1.379s] -- Detecting C compiler ABI info
+[1.942s] -- Detecting C compiler ABI info - done
+[1.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.987s] -- Detecting C compile features
+[1.988s] -- Detecting C compile features - done
+[2.037s] -- Detecting CXX compiler ABI info
+[2.527s] -- Detecting CXX compiler ABI info - done
+[2.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.554s] -- Detecting CXX compile features
+[2.555s] -- Detecting CXX compile features - done
+[2.635s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.701s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.641s] -- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.915s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.019s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.974s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.002s] -- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.373s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.438s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.119s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.281s] -- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.900s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.936s] -- Configured cppcheck include dirs: 
+[7.940s] -- Configured cppcheck exclude dirs and/or files: 
+[7.941s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.941s] -- Configured cpplint exclude dirs and/or files: 
+[7.941s] -- Added test 'lint_cmake' to check CMake code style
+[7.948s] -- Added test 'uncrustify' to check C / C++ code style
+[7.948s] -- Configured uncrustify additional arguments: 
+[7.953s] -- Added test 'xmllint' to check XML markup files
+[7.962s] -- Configuring done (7.8s)
+[8.108s] -- Generating done (0.1s)
+[8.108s] -- Build files have been written to: /home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher
+[8.341s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher
+[8.342s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[23.369s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[25.732s] [ 16%] [32m[1mLinking CXX executable publisher_lambda[0m
+[26.704s] [ 16%] Built target publisher_lambda
+[26.873s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[38.529s] [ 33%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[39.054s] [ 33%] Built target publisher_not_composable
+[39.095s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[49.534s] [ 50%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[50.088s] [ 50%] Built target publisher_wait_for_all_acked
+[50.133s] [ 58%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[60.974s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[61.178s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[61.269s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[70.035s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[70.423s] [ 83%] Built target publisher_member_function_with_type_adapter
+[70.468s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[78.492s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[78.886s] [100%] Built target publisher_member_function
+[78.917s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[79.004s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher
+[79.018s] -- Install configuration: ""
+[79.019s] -- Execute custom install script
+[79.020s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[79.035s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[79.049s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[79.062s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[79.076s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[79.092s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[79.106s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[79.124s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[79.139s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[79.153s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[79.167s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[79.180s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[79.195s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[79.212s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[79.232s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[79.247s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[79.262s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[79.278s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[79.294s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[79.310s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[79.329s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[79.350s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/examples_rclcpp_minimal_publisher

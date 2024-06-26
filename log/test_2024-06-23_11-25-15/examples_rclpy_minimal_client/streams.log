@@ -1,0 +1,17 @@
+[1.026s] Invoking command in '/home/sldev/ros2_ws/src/examples/rclpy/services/minimal_client': AMENT_PREFIX_PATH=/home/sldev/ros2_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.718s] [1m============================= test session starts ==============================[0m
+[1.719s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.728s] cachedir: /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache
+[1.728s] rootdir: /home/sldev/ros2_ws/src/examples/rclpy
+[1.728s] configfile: pytest.ini
+[1.729s] plugins: ament-copyright-0.17.0, ament-lint-0.17.0, ament-flake8-0.17.0, ament-pep257-0.17.0, ament-xmllint-0.17.0, launch-testing-ros-0.26.5, launch-testing-3.4.2, cov-4.1.0, colcon-core-0.16.1
+[1.892s] [1mcollecting ... [0m[1m
+[1.892s] collected 3 items                                                              [0m
+[1.892s] 
+[2.678s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.976s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[3.011s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[3.011s] 
+[3.011s] - generated xml file: /home/sldev/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml -
+[3.011s] [32m============================== [32m[1m3 passed[0m[32m in 1.29s[0m[32m ===============================[0m
+[3.613s] Invoked command in '/home/sldev/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': AMENT_PREFIX_PATH=/home/sldev/ros2_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_client:/home/sldev/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

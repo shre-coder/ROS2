@@ -1,0 +1,29 @@
+[2.395s] Invoking command in '/home/sldev/ros2_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/py_srvcli/prefix_override:/home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/sldev/ros2_ws/build/py_srvcli/build install --record /home/sldev/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.894s] running egg_info
+[2.925s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.926s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.927s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.927s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.928s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.024s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.025s] adding license file 'LICENSE'
+[3.027s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.028s] running build
+[3.029s] running build_py
+[3.030s] copying py_srvcli/client_member_function.py -> /home/sldev/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.030s] copying py_srvcli/service_member_function.py -> /home/sldev/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.030s] running install
+[3.051s] running install_lib
+[3.099s] copying /home/sldev/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.099s] copying /home/sldev/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[3.100s] byte-compiling /home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc
+[3.101s] byte-compiling /home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[3.102s] running install_data
+[3.103s] running install_egg_info
+[3.131s] removing '/home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[3.132s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[3.133s] running install_scripts
+[3.338s] Installing client script to /home/sldev/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.339s] Installing service script to /home/sldev/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.340s] writing list of installed files to '/home/sldev/ros2_ws/build/py_srvcli/install.log'
+[3.569s] Invoked command in '/home/sldev/ros2_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/py_srvcli/prefix_override:/home/sldev/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/sldev/ros2_ws/build/py_srvcli/build install --record /home/sldev/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

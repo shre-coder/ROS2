@@ -1,0 +1,23 @@
+[2.566s] Invoking command in '/home/sldev/ros2_ws/src/examples/rclpy/topics/minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[3.120s] running egg_info
+[3.161s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.161s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.164s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.165s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.165s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.249s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.251s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.251s] running build
+[3.251s] running build_py
+[3.252s] running install
+[3.275s] running install_lib
+[3.328s] running install_data
+[3.328s] running install_egg_info
+[3.382s] removing '/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher-0.19.3-py3.12.egg-info' (and everything under it)
+[3.382s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages/examples_rclpy_minimal_publisher-0.19.3-py3.12.egg-info
+[3.382s] running install_scripts
+[3.603s] Installing publisher_local_function script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.603s] Installing publisher_member_function script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.604s] Installing publisher_old_school script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.604s] writing list of installed files to '/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[4.433s] Invoked command in '/home/sldev/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

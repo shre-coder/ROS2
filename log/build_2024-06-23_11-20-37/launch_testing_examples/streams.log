@@ -1,0 +1,35 @@
+[1.771s] Invoking command in '/home/sldev/ros2_ws/build/launch_testing_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sldev/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[2.559s] running develop
+[2.560s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.560s] !!
+[2.560s] 
+[2.560s]         ********************************************************************************
+[2.561s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.561s]         Instead, use pypa/build, pypa/installer or other
+[2.561s]         standards-based tools.
+[2.562s] 
+[2.562s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.562s]         ********************************************************************************
+[2.562s] 
+[2.563s] !!
+[2.563s]   easy_install.initialize_options(self)
+[3.060s] running egg_info
+[3.060s] creating launch_testing_examples.egg-info
+[3.096s] writing launch_testing_examples.egg-info/PKG-INFO
+[3.097s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[3.098s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[3.098s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[3.098s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[3.167s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[3.168s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[3.203s] running build_ext
+[3.204s] Creating /home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch-testing-examples.egg-link (link to .)
+[3.204s] 
+[3.205s] Installed /home/sldev/ros2_ws/build/launch_testing_examples
+[3.205s] running symlink_data
+[3.205s] creating /home/sldev/ros2_ws/install/launch_testing_examples/share/ament_index
+[3.205s] creating /home/sldev/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[3.205s] creating /home/sldev/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.205s] symbolically linking /home/sldev/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/sldev/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.205s] symbolically linking /home/sldev/ros2_ws/build/launch_testing_examples/package.xml -> /home/sldev/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[3.311s] Invoked command in '/home/sldev/ros2_ws/build/launch_testing_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/launch_testing_examples/prefix_override:/home/sldev/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sldev/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

@@ -1,0 +1,85 @@
+[0.052s] Invoking command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[2.891s] -- The C compiler identification is GNU 13.2.0
+[2.891s] -- The CXX compiler identification is GNU 13.2.0
+[2.891s] -- Detecting C compiler ABI info
+[2.891s] -- Detecting C compiler ABI info - done
+[2.891s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.891s] -- Detecting C compile features
+[2.891s] -- Detecting C compile features - done
+[2.891s] -- Detecting CXX compiler ABI info
+[2.891s] -- Detecting CXX compiler ABI info - done
+[2.891s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.891s] -- Detecting CXX compile features
+[2.892s] -- Detecting CXX compile features - done
+[2.892s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.892s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.892s] -- Found rclcpp: 28.1.2 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.892s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.892s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.892s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.893s] -- Found rmw_fastrtps_cpp: 8.4.0 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.893s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.893s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.893s] -- Found rclcpp_components: 28.1.2 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.894s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.894s] -- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.978s] -- Configured cppcheck include dirs: /home/sldev/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[2.978s] -- Configured cppcheck exclude dirs and/or files: 
+[2.981s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.981s] -- Configured cpplint exclude dirs and/or files: 
+[2.985s] -- Added test 'lint_cmake' to check CMake code style
+[2.986s] -- Added test 'uncrustify' to check C / C++ code style
+[2.986s] -- Configured uncrustify additional arguments: 
+[2.988s] -- Added test 'xmllint' to check XML markup files
+[2.992s] -- Configuring done (2.9s)
+[3.150s] -- Generating done (0.1s)
+[3.158s] -- Build files have been written to: /home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[3.250s] Invoked command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[3.250s] Invoking command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[53.930s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[53.941s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[68.201s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[69.350s] [ 33%] Built target composition_nodes
+[69.432s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[75.792s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[76.574s] [ 55%] Built target composition_publisher
+[76.612s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[83.129s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[84.134s] [ 77%] Built target composition_composed
+[84.188s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[91.186s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[92.353s] [100%] Built target composition_subscriber
+[92.537s] Invoked command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[92.679s] Invoking command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[92.704s] -- Install configuration: ""
+[92.705s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[92.707s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[92.708s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[92.716s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[92.717s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[92.718s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[92.718s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[92.719s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[92.719s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[92.721s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[92.722s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[92.723s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[92.725s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[92.731s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[92.733s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[92.733s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[92.735s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[92.738s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[92.738s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[92.738s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[92.739s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[92.746s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[92.746s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[92.747s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[92.753s] -- Installing: /home/sldev/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[93.685s] Invoked command in '/home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/src/build/examples_rclcpp_minimal_composition

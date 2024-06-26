@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000779] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000849] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000885] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000917] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001025] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001101] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001140] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001164] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001243] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001280] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001329] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001360] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001389] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001418] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001450] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001519] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001553] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001581] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001610] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001659] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001691] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001715] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001743] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001773] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001803] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002107] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002238] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002304] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.039314] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.040143] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sldev/ros2_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/tutorial_interfaces'], 'cwd': '/home/sldev/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sldev', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/sldev', 'OLDPWD': '/home/sldev', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2170', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sldev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sldev', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sldev-VirtualBox:@/tmp/.ICE-unix/2128,unix/sldev-VirtualBox:/tmp/.ICE-unix/2128', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d74acf2_749f_4497_bc2d_4bb4b88f75a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C5F4P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sldev/ros2_ws/build/tutorial_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.104234] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.104541] (-) TimerEvent: {}
+[0.104733] (tutorial_interfaces) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.104887] (tutorial_interfaces) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.105008] (tutorial_interfaces) StderrLine: {'line': b'  code such as\n'}
+[0.105136] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.105263] (tutorial_interfaces) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.105380] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.105498] (tutorial_interfaces) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.105618] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.105739] (tutorial_interfaces) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.105857] (tutorial_interfaces) StderrLine: {'line': b'  line.\n'}
+[0.105975] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.106110] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.106243] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.106364] (tutorial_interfaces) StderrLine: {'line': b'  cmake_minimum_required() should be called prior to this top-level project()\n'}
+[0.106482] (tutorial_interfaces) StderrLine: {'line': b'  call.  Please see the cmake-commands(7) manual for usage documentation of\n'}
+[0.106598] (tutorial_interfaces) StderrLine: {'line': b'  both commands.\n'}
+[0.106721] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.106836] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.214171] (-) TimerEvent: {}
+[0.315612] (-) TimerEvent: {}
+[0.340932] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.418812] (-) TimerEvent: {}
+[0.520689] (-) TimerEvent: {}
+[0.620340] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.649290] (-) TimerEvent: {}
+[0.677915] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.749656] (-) TimerEvent: {}
+[0.850330] (-) TimerEvent: {}
+[0.892908] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.920021] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.921143] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.922770] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.946148] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.953388] (-) TimerEvent: {}
+[1.054932] (-) TimerEvent: {}
+[1.156120] (-) TimerEvent: {}
+[1.179697] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.208108] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.208988] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.210177] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.218881] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.262516] (-) TimerEvent: {}
+[1.469764] (-) TimerEvent: {}
+[1.524713] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.580654] (-) TimerEvent: {}
+[1.688405] (-) TimerEvent: {}
+[1.726323] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[1.727987] (tutorial_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.728138] (tutorial_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.728262] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.728471] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.728601] (tutorial_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.728719] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.728842] (tutorial_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.728962] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.729079] (tutorial_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.729196] (tutorial_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.729314] (tutorial_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.729823] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.730156] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.730281] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[1.730455] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.730584] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.730703] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.730820] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.730945] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.731065] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.731182] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.731298] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.731415] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.731629] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[1.731753] (tutorial_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.731871] (tutorial_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.731992] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.732181] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.732299] (tutorial_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.732429] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.732559] (tutorial_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.732676] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.732792] (tutorial_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.732909] (tutorial_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.733132] (tutorial_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.733280] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.733398] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.733517] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[1.733698] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.733818] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.733937] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.734060] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.734179] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.734320] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.734449] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.734572] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.734873] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.766032] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[1.766452] (tutorial_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.766676] (tutorial_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.766882] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.767086] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.767437] (tutorial_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.767666] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.767875] (tutorial_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.768081] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.768291] (tutorial_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.768553] (tutorial_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.768768] (tutorial_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.768972] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.769134] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.769257] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[1.769376] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.769493] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.769609] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.769732] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.769853] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.769972] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.770089] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.770205] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.770328] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.770445] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.770561] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.770678] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.770798] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.770919] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[1.771050] (tutorial_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.771167] (tutorial_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.771283] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.771405] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.771522] (tutorial_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.771642] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.771758] (tutorial_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.771878] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.772000] (tutorial_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.772117] (tutorial_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.772235] (tutorial_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.772361] (tutorial_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.772487] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.772606] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[1.772725] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.772842] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.772962] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.773084] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.773200] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.773317] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.773434] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.773562] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.773683] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.773800] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.773916] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.774035] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.774319] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.800165] (-) TimerEvent: {}
+[1.890528] (tutorial_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.890819] (tutorial_interfaces) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[1.891256] (tutorial_interfaces) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[1.891636] (tutorial_interfaces) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.891789] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.892035] (tutorial_interfaces) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[1.892285] (tutorial_interfaces) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[1.892612] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.892875] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.893307] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.893471] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.893670] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.893825] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.894031] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.894292] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.894392] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.894485] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.894572] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.894658] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.894741] (tutorial_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.894824] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.894907] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.894990] (tutorial_interfaces) StderrLine: {'line': b'  if given arguments:\n'}
+[1.895201] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.895331] (tutorial_interfaces) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[1.895450] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.895574] (tutorial_interfaces) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[1.895694] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.895813] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.895932] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.896052] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.896205] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.896331] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.896449] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.896567] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.896715] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.896836] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.896963] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.897080] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.897239] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.897364] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.897482] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[1.897598] (tutorial_interfaces) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[1.897725] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.897843] (tutorial_interfaces) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.28)\n'}
+[1.897959] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.898076] (tutorial_interfaces) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[1.898193] (tutorial_interfaces) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[1.898316] (tutorial_interfaces) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[1.898431] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[1.898546] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.898660] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.900571] (-) TimerEvent: {}
+[1.905158] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[1.959724] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[1.971320] (-) EventReactorShutdown: {}

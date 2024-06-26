@@ -1,0 +1,44 @@
+[0.096s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j6 -l6
+[0.302s] [  8%] Built target subscriber_lambda
+[0.339s] [ 16%] Built target subscriber_member_function
+[0.343s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[0.349s] [ 33%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[0.373s] [ 41%] Built target subscriber_not_composable
+[0.373s] [ 50%] Built target subscriber_member_function_with_type_adapter
+[0.417s] [ 58%] Built target wait_set_subscriber
+[0.434s] [ 66%] Built target subscriber_content_filtering
+[0.452s] [ 83%] Built target wait_set_subscriber_library
+[0.483s] [ 91%] Built target time_triggered_wait_set_subscriber
+[0.511s] [100%] Built target static_wait_set_subscriber
+[0.627s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j6 -l6
+[2.367s] Invoking command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[2.385s] -- Install configuration: ""
+[2.386s] -- Execute custom install script
+[2.387s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[2.387s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[2.388s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[2.389s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[2.390s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[2.391s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[2.391s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[2.392s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[2.392s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[2.392s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[2.393s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[2.393s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[2.393s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[2.394s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[2.394s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[2.394s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[2.395s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[2.395s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[2.396s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[2.396s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[2.397s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[2.397s] -- Symlinking: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.417s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[2.418s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[2.419s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[2.420s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[2.420s] -- Up-to-date symlink: /home/sldev/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.901s] Invoked command in '/home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/examples_rclcpp_minimal_subscriber

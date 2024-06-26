@@ -1,0 +1,25 @@
+[1.968s] Invoking command in '/home/sldev/ros2_ws/src/examples/rclpy/actions/minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[2.392s] running egg_info
+[2.421s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.423s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.423s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.424s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.424s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.501s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.502s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.502s] running build
+[2.502s] running build_py
+[2.505s] running install
+[2.515s] running install_lib
+[2.557s] running install_data
+[2.559s] running install_egg_info
+[2.597s] removing '/home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.3-py3.12.egg-info' (and everything under it)
+[2.598s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.3-py3.12.egg-info
+[2.601s] running install_scripts
+[2.828s] Installing server script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.829s] Installing server_defer script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.830s] Installing server_not_composable script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.830s] Installing server_queue_goals script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.832s] Installing server_single_goal script to /home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.832s] writing list of installed files to '/home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[3.274s] Invoked command in '/home/sldev/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/sldev/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/sldev/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
