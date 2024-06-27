@@ -1,0 +1,2 @@
+Invoking command in '/home/sldev/ros2_ws/build/tutorial_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/tutorial_interfaces -- -j6 -l6
+Invoked command in '/home/sldev/ros2_ws/build/tutorial_interfaces' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/tutorial_interfaces -- -j6 -l6

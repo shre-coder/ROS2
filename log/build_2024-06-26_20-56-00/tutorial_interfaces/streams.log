@@ -1,0 +1,40 @@
+[0.028s] Invoking command in '/home/sldev/ros2_ws/build/tutorial_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/tutorial_interfaces -- -j6 -l6
+[0.153s] -- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.201s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.366s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.428s] -- Found rosidl_generator_c: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 4.6.2 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.614s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.632s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.992s] Error parsing '/home/sldev/ros2_ws/src/tutorial_interfaces/package.xml':
+[4.670s] Traceback (most recent call last):
+[4.670s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.670s]     main()
+[4.670s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.670s]     raise e
+[4.670s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.670s]     package = parse_package_string(
+[4.670s]               ^^^^^^^^^^^^^^^^^^^^^
+[4.670s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[4.671s]     pkg.validate(warnings=warnings)
+[4.671s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[4.671s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[4.671s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sldev/ros2_ws/src/tutorial_interfaces/package.xml':
+[4.671s] The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+[4.795s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.795s]   execute_process(/usr/bin/python3
+[4.795s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.795s]   /home/sldev/ros2_ws/src/tutorial_interfaces/package.xml
+[4.795s]   /home/sldev/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[4.795s]   returned error code 1
+[4.795s] Call Stack (most recent call first):
+[4.795s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.795s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[4.796s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[4.796s] 
+[4.796s] [0m
+[4.796s] -- Configuring incomplete, errors occurred!
+[4.807s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[4.812s] Invoked command in '/home/sldev/ros2_ws/build/tutorial_interfaces' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/tutorial_interfaces -- -j6 -l6

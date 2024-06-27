@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.000807] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000858] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000876] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000892] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000907] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000923] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000938] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000952] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001007] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001027] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001042] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001058] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001072] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001087] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001102] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001116] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001130] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001145] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001160] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001196] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001211] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001226] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001240] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001255] (-) JobUnselected: {'identifier': 'my_pkg'}
+[0.001269] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001284] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001299] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001316] (-) EventReactorShutdown: {}
