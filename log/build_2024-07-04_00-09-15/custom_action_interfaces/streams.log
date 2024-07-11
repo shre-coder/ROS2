@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/sldev/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/custom_action_interfaces
+[0.268s] -- The C compiler identification is GNU 13.2.0
+[0.506s] -- The CXX compiler identification is GNU 13.2.0
+[0.550s] -- Detecting C compiler ABI info
+[0.714s] -- Detecting C compiler ABI info - done
+[0.730s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.731s] -- Detecting C compile features
+[0.732s] -- Detecting C compile features - done
+[0.747s] -- Detecting CXX compiler ABI info
+[0.920s] -- Detecting CXX compiler ABI info - done
+[0.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.938s] -- Detecting CXX compile features
+[0.938s] -- Detecting CXX compile features - done
+[0.945s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.184s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.653s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.658s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.659s]   rosidl_generate_interfaces() the passed file 'action/Fiboacci.action'
+[1.659s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.659s]   '/home/sldev/ros2_ws/src/custom_action_interfaces'
+[1.659s] Call Stack (most recent call first):
+[1.659s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[1.659s] 
+[1.659s] [0m
+[1.659s] -- Configuring incomplete, errors occurred!
+[1.669s] Invoked command in '/home/sldev/ros2_ws/build/custom_action_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/custom_action_interfaces

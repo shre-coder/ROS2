@@ -1,0 +1,220 @@
+[0.022s] Invoking command in '/home/sldev/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/custom_action_interfaces
+[0.041s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.446s] -- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.396s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.780s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.959s] -- Found PythonExtra: /usr/bin/python3  
+[3.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.717s] -- Found ament_lint_auto: 0.17.0 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.770s] -- Added test 'lint_cmake' to check CMake code style
+[3.777s] -- Added test 'xmllint' to check XML markup files
+[3.789s] -- Configuring done (3.8s)
+[3.849s] -- Generating done (0.0s)
+[3.853s] -- Build files have been written to: /home/sldev/ros2_ws/build/custom_action_interfaces
+[3.870s] Invoked command in '/home/sldev/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sldev/ros2_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/sldev/ros2_ws/install/custom_action_interfaces
+[3.872s] Invoking command in '/home/sldev/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/custom_action_interfaces -- -j6 -l6
+[3.952s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.975s] [  2%] Built target ament_cmake_python_copy_custom_action_interfaces
+[4.383s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[4.399s] running egg_info
+[4.402s] creating custom_action_interfaces.egg-info
+[4.410s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.427s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.443s] writing custom_action_interfaces.egg-info/PKG-INFO
+[4.443s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[4.443s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[4.443s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[4.573s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[4.574s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[4.696s] [  8%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[5.311s] [  8%] Built target custom_action_interfaces__cpp
+[5.324s] [ 11%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[5.324s] [ 14%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__functions.c.o[0m
+[5.324s] [ 17%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__description.c.o[0m
+[5.604s] [ 20%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_c.so[0m
+[5.677s] [ 20%] Built target custom_action_interfaces__rosidl_generator_c
+[5.694s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.694s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.694s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.694s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.694s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.700s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.286s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[6.326s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[6.462s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[6.526s] [ 50%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[6.590s] [ 52%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_c.so[0m
+[6.683s] [ 55%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.688s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_c
+[6.907s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[6.948s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[6.996s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[8.338s] [ 64%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so[0m
+[8.451s] [ 67%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.569s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[8.585s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[8.620s] [ 70%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.831s] [ 70%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[9.243s] [ 73%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.463s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.500s] [ 73%] Built target custom_action_interfaces
+[9.543s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.748s] [ 76%] Built target custom_action_interfaces__py
+[10.781s] [ 79%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o[0m
+[11.191s] [ 82%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_py.so[0m
+[11.275s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[11.306s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.306s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.307s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.505s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so[0m
+[11.508s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.512s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.565s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_c
+[11.566s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_introspection_c
+[11.572s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_fastrtps_c
+[11.591s] Invoked command in '/home/sldev/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sldev/ros2_ws/build/custom_action_interfaces -- -j6 -l6
+[11.730s] Invoking command in '/home/sldev/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/custom_action_interfaces
+[11.746s] -- Install configuration: ""
+[11.747s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces
+[11.747s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json
+[11.747s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c
+[11.748s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c
+[11.749s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h
+[11.749s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[11.749s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h
+[11.749s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[11.749s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.750s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh
+[11.750s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv
+[11.750s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so
+[11.751s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so" to ""
+[11.752s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.752s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.752s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.752s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[11.753s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[11.753s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.753s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.753s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.753s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.753s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.753s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.754s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[11.754s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[11.754s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[11.754s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.754s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so
+[11.755s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.755s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so
+[11.756s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so" to ""
+[11.756s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.756s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.756s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp
+[11.756s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.756s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.hpp
+[11.756s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp
+[11.757s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp
+[11.757s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp
+[11.757s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[11.757s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.757s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.757s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.757s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.757s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps
+[11.758s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[11.758s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[11.758s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.758s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.759s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.759s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[11.759s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[11.759s] -- Up-to-date: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[11.759s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp
+[11.759s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[11.759s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.760s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.760s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so
+[11.761s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.761s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.762s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci_s.c
+[11.763s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py
+[11.764s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py
+[11.764s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.764s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[11.764s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.765s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py
+[11.765s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.837s] Listing '/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces'...
+[11.838s] Compiling '/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py'...
+[11.838s] Listing '/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action'...
+[11.838s] Compiling '/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py'...
+[11.838s] Compiling '/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py'...
+[11.852s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.852s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.852s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.853s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[11.853s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[11.854s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so" to ""
+[11.854s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so
+[11.855s] -- Set non-toolchain portion of runtime path of "/home/sldev/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so" to ""
+[11.855s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl
+[11.855s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action
+[11.855s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces
+[11.855s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces
+[11.856s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh
+[11.856s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv
+[11.856s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh
+[11.856s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv
+[11.856s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash
+[11.857s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh
+[11.857s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh
+[11.857s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv
+[11.857s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv
+[11.857s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces
+[11.858s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake
+[11.858s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.858s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.858s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.859s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.859s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.859s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake
+[11.860s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.860s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake
+[11.860s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.860s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.861s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.861s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.861s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake
+[11.861s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.861s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake
+[11.862s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.862s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.862s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.862s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.862s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.863s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.863s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.863s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.863s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake
+[11.863s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake
+[11.864s] -- Installing: /home/sldev/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.xml
+[11.867s] Invoked command in '/home/sldev/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sldev/ros2_ws/build/custom_action_interfaces
